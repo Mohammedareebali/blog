@@ -1,0 +1,183 @@
+@import url('nav.css');
+@import url('side.css');
+@import url('footer.css');
+
+.back p {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.back span{
+    padding-right: 15px;
+}
+
+main{
+    display: flex;
+
+}
+.container{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+h1{
+    font-family: Noticia Text;
+font-size: 72px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0px;
+text-align: left;
+}
+.author{
+    display: flex;
+}
+.dime{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.name , .title{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+    
+}
+.date{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    
+    
+    /* Text_Black */
+    
+    color: #333333;
+    
+}
+p{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.pic{
+    width: 100%;
+    border-radius: 10px;
+}
+.m{
+    height: 300px;
+    object-fit: cover;
+}
+ul{
+    padding: 10px;
+
+}
+.article ul li{
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+ li::marker{
+    color:#1044FF;
+}
+.links{
+    background-color: #1044FF;
+    color: #fff;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    padding: 0.5em;
+    
+}
+.share{
+    display: flex;
+    justify-content: flex-end;
+}
+.res{
+    padding-right: 5px;
+}
+.person{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+.writer{
+    display: flex;
+}
+.div6 h3{
+ margin: 0;   
+}
+.le{
+    font-family: Source Sans Pro;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #333333A6;
+}
+.box p,#tags p {
+    color: #000;
+}
+.box{
+    margin: 1em;
+    display: flex;
+}
+.v{
+    border-left: 6px solid #1044FF;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.links p {
+    color: #fff;
+}
+.cover{
+    display: grid;
+    grid-template-columns:  auto 2% auto 1%;
+    grid-template-rows: auto;
+    grid-template-areas:
+       ' a . b .';
+   
+}
+
+
+
+.section{
+    grid-area: a;
+}
+.sec1{
+    grid-area: b;
+}
+.card1{
+    height: 100%;
+    margin-bottom: 20px;
+}
+.img{
+        /* james-donaldson-toPRrcyAIUY-unsplash */
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        }
