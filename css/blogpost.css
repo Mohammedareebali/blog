@@ -1,7 +1,7 @@
 @import url('nav.css');
 @import url('side.css');
 @import url('footer.css');
-
+@import url('mobileblog.css');
 .back p {
     display: flex;
     align-items: center;

@@ -92,3 +92,65 @@ color: #fff;
 .part1 img{
     padding-top: 2em;
 }
+@media(max-width:1500px){
+    .img{
+        width: 370px;
+        height: 288px;
+    }
+    nav span.material-icons{
+        display: none;  
+    }
+}
+@media (max-width:1300px){
+    .img{
+
+    }
+    .img{
+       width:278;
+       height:216;
+    }
+    nav span.material-icons{
+        display: none;
+
+    }
+}
+@media (max-width:700px){
+    nav span.material-icons{
+        display: inline;
+        
+    }
+    #word{
+        margin-top:20px;
+    }
+    .info{
+        height: 100%;
+    }
+    .part2{
+        margin: 62px 0 0 0%;
+    }
+    #div1{
+        grid-template-columns: auto;
+    grid-template-rows: auto;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .part1 ,.part2{
+width: 100%;
+    }
+    .part1{
+        margin: 62px 5% 0 5%;
+    }
+     .part2 ul{
+        padding: 0%;
+    }
+    nav ul , nav .ul1{
+        display: none !important;
+    }
+    .c , aside , .side{
+        margin-bottom: 20px;
+    }
+}
+a{
+    text-decoration: none;
+}
