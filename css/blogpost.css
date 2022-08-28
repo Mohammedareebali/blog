@@ -13,11 +13,12 @@
 
 main {
     display: flex;
+    justify-content: space-between;
 }
 .container {
     width: 50%;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
