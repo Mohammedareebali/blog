@@ -30,6 +30,7 @@ h1 {
 }
 .author {
     display: flex;
+    margin: 0 2px 2px 0;
 }
 .dime {
     display: flex;
