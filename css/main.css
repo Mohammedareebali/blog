@@ -85,13 +85,6 @@ color: #333333b7;
 .sec1{
     grid-area: b;
 }
-.c{
-    grid-area: c;
-    border: 1px solid #1044FF;
-    height: fit-content;
-    width: 232px;
-    padding: 1rem 1rem;
-}
 
 .sec2{
     grid-area: d;
