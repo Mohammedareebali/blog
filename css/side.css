@@ -72,11 +72,11 @@
         height: 150px;
         width: 232px;
     }
-    #tags{
+    .tgs{
         display: flex;
         flex-wrap: wrap;
     }
-    #tags p {
+    .tgs p {
         padding:0 10px;
         font-family: Source Sans Pro;
     font-size: 16px;
